@@ -1,0 +1,12 @@
+### Question 8: Define electricity and electronics in your own words. Highlight the key differences between the two terms.
+Electricity refers to the general flow and generation of electrical power. It primarily deals with the transmission of energy to perform heavy mechanical work, generate heat, or produce light. Electronics is a specialized sub-field that focuses on controlling the flow of electrons to process information or control signals, typically utilizing active semiconductor components (like transistors and diodes) operating at lower voltages. 
+**Key Difference:** Electricity is fundamentally about handling power and energy, whereas electronics is about manipulating signals and data.
+
+### Question 9: Choose a specific electronic device or system and explain how electronics contribute to its functionality. Highlight the role of electronic components.
+An excellent example of an electronic system is an IoT health monitor powered by a microcontroller (such as an Arduino Uno). In this setup, electronics actively process and transmit physiological data. A heart rate pulse sensor acts as an input transducer, converting physical pulse signals into analog electrical signals. The microcontroller processes these inputs, and network communication modules (like an ENC28J60 Ethernet module) format the data to be securely sent over the internet to external APIs (like ThingSpeak) for remote tracking and SMS alerts. Key electronic components make this possible: integrated circuits (ICs) serve as the logic and processing centers for the board and the network modules. These automated network systems can operate completely headless, routing data directly to the web without needing a local LCD display.
+
+### Question 10: Explain the scope of electricity and electronics, providing examples of applications for each.
+* **Scope of Electricity:** Encompasses large-scale power generation, distribution networks, and heavy-duty consumption. 
+  * *Examples:* Powering the HVAC systems of an entire campus building, or providing the main 5V DC power supply rails to drive logic boards.
+* **Scope of Electronics:** Has a narrower, more precise scope focused on intelligent signal processing, logic gates, and computing.
+  * *Examples:* Microprocessors executing lines of C++ code, or digital logic elements like a 7-segment display decoder that maps binary inputs directly into highly specific output numbers.
